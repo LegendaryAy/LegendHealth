@@ -1,0 +1,135 @@
+/*>>>>>>>>>>>>>>>>>>>>>>>>>
+    Font: Oswald
+    Colour: #1f2738, #A24936, #F0EFF4
+
+
+/* ==========================
+    Basic Setup
+============================*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+body{
+    font-family: oswald, sans-serif;
+    background:#1f2738;     
+}
+li{
+    list-style: none;
+    display:inline-block;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width:1400px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+/* Header*/
+ header h1{
+     text-align: center;
+     color: #1f2738;
+     padding: 20px 0;
+ }
+ header span{
+     color:#A24936;
+ }
+ .nav-menu{
+     text-align: center;
+     text-transform: uppercase;
+     background-color: #f0eff4;
+ }
+ .nav-menu a{
+     color: #1f2738;
+ }
+ .nav-menu a:hover{
+    color:#A24936;
+}
+.nav-menu li{
+    padding:20px;
+}
+/*About text*/
+.about-text{
+    padding:50px;
+}
+.about-text h2{
+    color:#A24936;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 30px;
+}
+.about-text p{
+    color:#1f2738;
+    font-weight:400;
+    margin-bottom: 10px;
+} 
+.about-text a{
+    color:#A24936;
+    font-weight:700;
+}
+.about-text a:hover{
+    color:#1f2738;
+}
+/*show food*/
+.show-food{
+    margin-top: 80px;
+    padding: 0 50px;
+}
+.food{
+    background-color:#1f2738;
+    margin-bottom: 30px;
+    width:100%;
+    display:flex;
+    color:white;
+}
+.food:nth-child(2){
+    background-color: #A24936;
+}
+.food .food-text{
+    padding:20px;
+}
+.food img{
+    height:100%;
+}
+.food h2{
+    margin-bottom: 10px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.food p{
+    font-weight: 300;
+    font-size: 16px;
+}
+.bg-img{
+    width:80%;
+    margin:auto;
+}
+.bg-img img{
+    width:100%;
+}
+
+footer{
+    color:#fff;
+    font-weight: 300;
+    background-color: #A24936;
+    text-align: center;
+    font-size:18px;
+    padding:15px;
+}
+
+@media (min-width:250px) and (max-width:750px){
+    .nav-menu li {
+        padding:10px;
+    }
+    .food{
+        display: block;
+    }
+    .food img{
+        width:100%
+    }
+    
+}
